@@ -3,7 +3,7 @@ package com.atguigu.juc01;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-//资源类
+//资源类*
 class TicKet{
     //操作
     private int number=30;
