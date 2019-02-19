@@ -16,7 +16,6 @@ class TicKet{
 //        this.notifyAll();
 //    }
     public void sale(){
-
         lock.lock();
         try {
             if(number>0){
