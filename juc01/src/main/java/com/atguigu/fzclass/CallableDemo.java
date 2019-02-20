@@ -13,7 +13,7 @@ class MyThread implements Callable<Integer>{
 }
 public class CallableDemo {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        //因为new Thread(...)参数里面不支持Callable类型,但是支持Runnable接口
+        //因为new Thread(...)参数里面不支持Callable类型,但是支持Runnable接口，666
         //又因为FutureTask实现了Runnable接口，又支持Callable类型接口，所以虚假成真
         //FutureTask<Integer> futureTask = new FutureTask<Integer>(new MyThread());
 
